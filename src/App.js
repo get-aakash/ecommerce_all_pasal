@@ -6,6 +6,8 @@ import Home from './pages/home/Home';
 import Signup from './pages/signin-signup/Signup';
 import SignIn from './pages/signin-signup/SignIn';
 import ResetPassword from './pages/signin-signup/ResetPassword';
+import Dashboard from './pages/dashboard/Dashboard';
+import Category from './pages/category/Category';
 
 
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="signup" element={<Signup />} />
         <Route path="/" element={<SignIn />} />
         <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/category" element={<Category />} />
 
         
       </Routes>

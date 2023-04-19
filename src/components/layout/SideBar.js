@@ -10,22 +10,22 @@ export const SideBar = () => {
         <hr />
         <ul className="list-unstyled ">
           <li>
-            <Link className="nav-link fw-bold " to="/admin/dashboard">
+            <Link className="nav-link fw-bold " to="/dashboard">
               Dashboard
             </Link>
           </li>
           <li>
-            <Link className="nav-link fw-bold " to="/admin/category">
+            <Link className="nav-link fw-bold " to="/category">
               Category
             </Link>
           </li>
           <li>
-            <Link className="nav-link fw-bold " to="/admin/products">
+            <Link className="nav-link fw-bold " to="/products">
               Products
             </Link>
           </li>
           <li>
-            <Link className="nav-link fw-bold " to="/admin/payment-options">
+            <Link className="nav-link fw-bold " to="/payment-options">
               Payment Options
             </Link>
           </li>

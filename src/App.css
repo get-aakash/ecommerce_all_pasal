@@ -1,7 +1,6 @@
-body{
-  background: rgba(1, 1, 251, 0.17);
+.wrapper {
+  background: rgba(0, 0, 255, 0.118);
 }
-
 /* ====== admin layout */
 .main {
   min-height: 89vh;

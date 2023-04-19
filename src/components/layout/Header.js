@@ -4,6 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import { GoSignIn, GoSignOut } from "react-icons/go";
 import { FaUserEdit } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import {AiFillDashboard} from "react-icons/ai"
+import Dashboard from "../../pages/dashboard/Dashboard";
 
 export const Header = () => {
   return (
@@ -18,6 +20,9 @@ export const Header = () => {
             </Link>
             <Link className="nav-link" to="/signup">
               <FaUserEdit /> Sign Up
+            </Link>
+            <Link className="nav-link" to="/dashboard">
+              <AiFillDashboard /> Dashboard
             </Link>
             <Link className="nav-link" to="#!">
               <GoSignOut /> Sign Out
